@@ -1,0 +1,111 @@
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-image: url('images.jpeg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    
+    h4{
+      color:white;
+    
+        
+    }
+
+    .container {
+      width: 100%;
+      max-width: 980px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      cursor: url('itachi.png'), auto;
+      text-align: center;
+    }
+
+    .left-section {
+      width: 50%;
+      cursor: url('itachi.png'), auto;
+      
+    }
+
+    .left-section h1 {
+      font-size: 48px;
+      color: #1877f2;
+      margin: 5px;
+      cursor: url('itachi.png'), auto;
+    }
+
+    .left-section p {
+      font-size: 20px;
+      color: #333;
+      margin-top: 10px;
+      cursor: url('itachi.png'), auto;
+    }
+
+    .right-section {
+      width: 50%;
+      max-width: 400px;
+      padding: 20px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      cursor: url('itachi.png'), auto;
+    }
+
+    .login-form {
+      display: flex;
+      flex-direction: column;
+      cursor: url('itachi.png'), auto;
+      border: 5px;
+    }
+
+    .login-form input {
+      width: 95%;
+      padding: 10px;
+      margin-bottom: 15px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      cursor: url('itachi.png'), auto;
+    }
+
+    .login-form input:focus {
+      outline: none;
+      border-color: #1877f2;
+      cursor: url('itachi.png'), auto;
+    }
+
+    .login-button button {
+      padding: 12px;
+      background-color: gray;
+      color: white;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition-duration: 1s;
+      cursor: url('itachi.png'), auto;
+      
+    }
+
+    .login-button button:hover {
+      background-color:pink;
+      scale: 1.2;
+      cursor: url('itachi.png'), auto;
+    }
+    login-button{
+        border: 50px;
+        border-radius: 150;
+    }
+    h4{
+        font-family: cursive;
+    }
+    h1{
+        font-family: times;
+        text-align: center;
+    }
