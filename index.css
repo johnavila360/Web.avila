@@ -83,7 +83,7 @@
     .login-button button {
       padding: 12px;
       background-color: gray;
-      color: white;
+      color: black;
       font-size: 16px;
       border: none;
       border-radius: 5px;
@@ -94,7 +94,7 @@
     }
 
     .login-button button:hover {
-      background-color:pink;
+      background-color:white;
       scale: 1.2;
       cursor: url('itachi.png'), auto;
     }
